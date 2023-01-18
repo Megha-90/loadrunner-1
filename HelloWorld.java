@@ -7,7 +7,7 @@ class HelloWorld {
       HelloWorld test = new HelloWorld();
       
       test.init();
-      
+    }
       public int init(){
         System.out.println("Hello, World! New "+TOKEN);
       
