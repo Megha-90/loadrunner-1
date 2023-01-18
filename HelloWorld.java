@@ -8,8 +8,9 @@ class HelloWorld {
       HelloWorld test = new HelloWorld();
       test.printing();
     }
-    public String printing()
-    {
-        System.out.println("Hello, World! New "+ token);
+    
+    public int init() throws Throwable {
+        System.out.println(("Hello, World! " + token);
     }
+
 }
