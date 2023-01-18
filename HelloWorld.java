@@ -5,7 +5,7 @@ class HelloWorld {
     {
       token = args[0];  
       System.out.println("Hello, World! "+ token); 
-      HelloWorld test = new HelloWorld();
+      HelloWorld test = new HelloWorld(token);
       test.printing();
     }
     public String printing(String token)
