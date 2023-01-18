@@ -4,11 +4,11 @@ class HelloWorld {
     public static void main(String[] args) 
     {
       token = args[0];  
-      System.out.println("Hello, World! "+ token); 
+      System.out.println("Hello, World! "); 
       HelloWorld test = new HelloWorld();
-      test.printing(token);
+      test.printing();
     }
-    public String printing(String[] token)
+    public String printing()
     {
         System.out.println("Hello, World! New "+ token);
     }
