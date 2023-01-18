@@ -7,6 +7,7 @@ class HelloWorld {
       //HelloWorld test = new HelloWorld();
       //test.printing(token);
     }
+    System.out.println("Hello, World! New "+ token);
       //public String printing (String token){
         //System.out.println("Hello, World! New "+ token);
         //}
