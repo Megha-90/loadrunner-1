@@ -6,7 +6,7 @@ class HelloWorld {
       token = args[0];  
       System.out.println("Hello, World! "); 
       HelloWorld test = new HelloWorld();
-      test.printing();
+      test.init();
     }
     
     public int init() throws Throwable {
