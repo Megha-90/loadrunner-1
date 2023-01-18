@@ -45,3 +45,10 @@ javac -cp .;org.example.jar mysource.java
 javac -cp C:\Users...\com.sap.mcm.perf.loadrunner-1.0.jar C:\Users....\Actions.java
 
 Environmental variable / paramater input https://stackoverflow.com/questions/39617067/jenkins-displaying-echo-command-in-console-output-page
+
+**windows substring extract** https://ss64.com/nt/syntax-substring.html
+
+SET _test=123456789abcdef0
+ SET _result=%_test:~0,5%
+ >ECHO %_result%
+12345
