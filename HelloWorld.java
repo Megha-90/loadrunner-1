@@ -1,16 +1,16 @@
 // Your First Program
 
 class HelloWorld {
-    static String TOKEN = "";
+    static String token = "";
     public static void main(String args[]) {
-      TOKEN = arg[0];  
-      System.out.println("Hello, World!"+TOKEN); 
+      token = arg[0];  
+      System.out.println("Hello, World!"+ token); 
       HelloWorld test = new HelloWorld();
       
-      test.init(TOKEN);
+      test.init(token);
     }
-      public int init(String TOKEN){
-        System.out.println("Hello, World! New "+TOKEN);
+      public int init(String token){
+        System.out.println("Hello, World! New "+ token);
       
     }
 }
