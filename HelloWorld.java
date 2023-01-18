@@ -10,7 +10,7 @@ class HelloWorld {
     }
     
     public int init() throws Throwable {
-        System.out.println(("Hello, World! " + token);
+        System.out.println("Hello, World! " + token);
     }
 
 }
