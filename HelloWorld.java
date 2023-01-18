@@ -9,7 +9,7 @@ class HelloWorld {
       test.init();
     }
     
-    public int init() throws Throwable {
+    public String init() throws Throwable {
         System.out.println("Hello, World! " + token);
         return token;
     }
