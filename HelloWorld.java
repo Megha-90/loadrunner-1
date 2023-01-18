@@ -6,9 +6,9 @@ class HelloWorld {
       System.out.println("Hello, World!"+TOKEN); 
       HelloWorld test = new HelloWorld();
       
-      test.init();
+      test.init(TOKEN);
     }
-      public int init(){
+      public int init(String TOKEN){
         System.out.println("Hello, World! New "+TOKEN);
       
     }
