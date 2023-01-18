@@ -1,7 +1,7 @@
 class HelloWorld {
     static String token = "abbbsgsf";
     
-    public static void main(String[] args) 
+    public static void main(String[] args) throws Throwable
     {
       token = args[0];  
       System.out.println("Hello, World! "); 
@@ -11,6 +11,7 @@ class HelloWorld {
     
     public int init() throws Throwable {
         System.out.println("Hello, World! " + token);
+        return token;
     }
 
 }
